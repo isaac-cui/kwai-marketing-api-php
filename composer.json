@@ -1,0 +1,9 @@
+{
+  "name": "isaac-cui/kwai-marketing-api-php",
+  "homepage": "https://github.com/isaac-cui/kwai-marketing-api-php",
+  "description": "Unofficial Kwai overseas Marketing API SDK",
+  "type": "library",
+  "require": {"php": ">=8.1", "php-64bit": ">=8.1", "ext-curl": "*", "ext-json": "*"},
+  "autoload": {"psr-4": {"Kwai\\Marketing\\": "src/"}},
+  "scripts": {"test": "php tests/run.php"}
+}

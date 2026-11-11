@@ -1,0 +1,10 @@
+<?php
+declare(strict_types=1);
+// Source checkout convenience. Composer users should load vendor/autoload.php.
+spl_autoload_register(static function (string $class): void {
+    $prefix = 'Kwai\\Marketing\\';
+    if (str_starts_with($class, $prefix)) {
+        $file = __DIR__ . '/src/' . substr($class, strlen($prefix)) . '.php';
+        if (is_file($file)) { require $file; }
+    }
+});
