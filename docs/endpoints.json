@@ -1,0 +1,490 @@
+[
+  {
+    "service": "Reports",
+    "goMethod": "AccountEffect",
+    "phpMethod": "accountEffect",
+    "method": "POST",
+    "path": "/rest/n/mapi/report/dspAccountEffectQuery",
+    "description": "广告主消耗"
+  },
+  {
+    "service": "Reports",
+    "goMethod": "AgentEffect",
+    "phpMethod": "agentEffect",
+    "method": "POST",
+    "path": "/rest/n/mapi/report/crmAccountQuery",
+    "description": "代理商消耗"
+  },
+  {
+    "service": "Reports",
+    "goMethod": "AgentBalance",
+    "phpMethod": "agentBalance",
+    "method": "POST",
+    "path": "/rest/n/mapi/report/financeBalanceQuery",
+    "description": "代理商余额"
+  },
+  {
+    "service": "Reports",
+    "goMethod": "AgentMonthlyConsumption",
+    "phpMethod": "agentMonthlyConsumption",
+    "method": "POST",
+    "path": "/rest/n/mapi/report/agentMonthlyConsumptionReportQuery",
+    "description": "代理商月度消耗"
+  },
+  {
+    "service": "Reports",
+    "goMethod": "AccountMonthlyConsumption",
+    "phpMethod": "accountMonthlyConsumption",
+    "method": "POST",
+    "path": "/rest/n/mapi/report/accountMonthlyConsumptionReportQuery",
+    "description": "广告主月度消耗"
+  },
+  {
+    "service": "Reports",
+    "goMethod": "AccountMonthlyDetailConsumption",
+    "phpMethod": "accountMonthlyDetailConsumption",
+    "method": "POST",
+    "path": "/rest/n/mapi/report/accountMonthlyDetailConsumptionReportQuery",
+    "description": "广告主消耗明细"
+  },
+  {
+    "service": "Reports",
+    "goMethod": "CampaignEffect",
+    "phpMethod": "campaignEffect",
+    "method": "POST",
+    "path": "/rest/n/mapi/report/dspCampaignEffectQuery",
+    "description": "广告计划报表"
+  },
+  {
+    "service": "Reports",
+    "goMethod": "UnitEffect",
+    "phpMethod": "unitEffect",
+    "method": "POST",
+    "path": "/rest/n/mapi/report/dspUnitEffectQuery",
+    "description": "广告组报表"
+  },
+  {
+    "service": "Reports",
+    "goMethod": "CreativeEffect",
+    "phpMethod": "creativeEffect",
+    "method": "POST",
+    "path": "/rest/n/mapi/report/dspCreativeEffectQuery",
+    "description": "广告创意报表"
+  },
+  {
+    "service": "Reports",
+    "goMethod": "VideoEffect",
+    "phpMethod": "videoEffect",
+    "method": "POST",
+    "path": "/rest/n/mapi/report/dspPhotoEffectQuery",
+    "description": "视频报表"
+  },
+  {
+    "service": "Reports",
+    "goMethod": "AppTargetEffect",
+    "phpMethod": "appTargetEffect",
+    "method": "POST",
+    "path": "/rest/n/mapi/report/dspAppTargetEffectQuery",
+    "description": "App 分国家报表"
+  },
+  {
+    "service": "Reports",
+    "goMethod": "PopulationEffect",
+    "phpMethod": "populationEffect",
+    "method": "POST",
+    "path": "/rest/n/mapi/report/dspPopulationAnalysisEffectQuery",
+    "description": "投放地/操作系统报表"
+  },
+  {
+    "service": "Reports",
+    "goMethod": "AccountInfos",
+    "phpMethod": "accountInfos",
+    "method": "POST",
+    "path": "/rest/n/mapi/report/dspAccountInfosQuery",
+    "description": "账户详情"
+  },
+  {
+    "service": "Reports",
+    "goMethod": "Accounts",
+    "phpMethod": "accounts",
+    "method": "POST",
+    "path": "/rest/n/mapi/report/crmAccountQueryByAgentOrCorp",
+    "description": "账户列表"
+  },
+  {
+    "service": "Reports",
+    "goMethod": "AdxDaily",
+    "phpMethod": "adxDaily",
+    "method": "POST",
+    "path": "/rest/n/mapi/adx/getAdxReport/day",
+    "description": "三方广告日报"
+  },
+  {
+    "service": "Finance",
+    "goMethod": "AccountBalance",
+    "phpMethod": "accountBalance",
+    "method": "POST",
+    "path": "/rest/n/mapi/finance/financeAccountBalanceQuery",
+    "description": "广告主余额"
+  },
+  {
+    "service": "Campaigns",
+    "goMethod": "List",
+    "phpMethod": "list",
+    "method": "POST",
+    "path": "/rest/n/mapi/campaign/dspCampaignPageQueryPerformance",
+    "description": "Campaign List"
+  },
+  {
+    "service": "Campaigns",
+    "goMethod": "Create",
+    "phpMethod": "create",
+    "method": "POST",
+    "path": "/rest/n/mapi/campaign/dspCampaignAddPerformance",
+    "description": "Campaign Create"
+  },
+  {
+    "service": "Campaigns",
+    "goMethod": "Update",
+    "phpMethod": "update",
+    "method": "POST",
+    "path": "/rest/n/mapi/campaign/dspCampaignUpdatePerformance",
+    "description": "Campaign Update"
+  },
+  {
+    "service": "Campaigns",
+    "goMethod": "UpdateStatus",
+    "phpMethod": "updateStatus",
+    "method": "POST",
+    "path": "/rest/n/mapi/campaign/dspCampaignUpdateOpenStatusPerformance",
+    "description": "Campaign UpdateStatus"
+  },
+  {
+    "service": "Campaigns",
+    "goMethod": "Delete",
+    "phpMethod": "delete",
+    "method": "POST",
+    "path": "/rest/n/mapi/campaign/dspCampaignDeletePerformance",
+    "description": "Campaign Delete"
+  },
+  {
+    "service": "Units",
+    "goMethod": "List",
+    "phpMethod": "list",
+    "method": "POST",
+    "path": "/rest/n/mapi/unit/dspUnitPageQueryPerformance",
+    "description": "Unit List"
+  },
+  {
+    "service": "Units",
+    "goMethod": "Create",
+    "phpMethod": "create",
+    "method": "POST",
+    "path": "/rest/n/mapi/unit/dspUnitAddPerformance",
+    "description": "Unit Create"
+  },
+  {
+    "service": "Units",
+    "goMethod": "Update",
+    "phpMethod": "update",
+    "method": "POST",
+    "path": "/rest/n/mapi/unit/dspUnitUpdatePerformance",
+    "description": "Unit Update"
+  },
+  {
+    "service": "Units",
+    "goMethod": "UpdateStatus",
+    "phpMethod": "updateStatus",
+    "method": "POST",
+    "path": "/rest/n/mapi/unit/dspUnitUpdateOpenStatusPerformance",
+    "description": "Unit UpdateStatus"
+  },
+  {
+    "service": "Units",
+    "goMethod": "Delete",
+    "phpMethod": "delete",
+    "method": "POST",
+    "path": "/rest/n/mapi/unit/dspUnitDeletePerformance",
+    "description": "Unit Delete"
+  },
+  {
+    "service": "Creatives",
+    "goMethod": "List",
+    "phpMethod": "list",
+    "method": "POST",
+    "path": "/rest/n/mapi/creative/dspCreativePageQueryPerformance",
+    "description": "Creative List"
+  },
+  {
+    "service": "Creatives",
+    "goMethod": "Create",
+    "phpMethod": "create",
+    "method": "POST",
+    "path": "/rest/n/mapi/creative/dspCreativeAddPerformance",
+    "description": "Creative Create"
+  },
+  {
+    "service": "Creatives",
+    "goMethod": "Update",
+    "phpMethod": "update",
+    "method": "POST",
+    "path": "/rest/n/mapi/creative/dspCreativeUpdatePerformance",
+    "description": "Creative Update"
+  },
+  {
+    "service": "Creatives",
+    "goMethod": "UpdateStatus",
+    "phpMethod": "updateStatus",
+    "method": "POST",
+    "path": "/rest/n/mapi/creative/dspCreativeUpdateOpenStatusPerformance",
+    "description": "Creative UpdateStatus"
+  },
+  {
+    "service": "Creatives",
+    "goMethod": "Delete",
+    "phpMethod": "delete",
+    "method": "POST",
+    "path": "/rest/n/mapi/creative/dspCreativeDeletePerformance",
+    "description": "Creative Delete"
+  },
+  {
+    "service": "Units",
+    "goMethod": "AuditResult",
+    "phpMethod": "auditResult",
+    "method": "POST",
+    "path": "/rest/n/mapi/unit/dspUnitAuditResultPerformance",
+    "description": "广告组审核建议"
+  },
+  {
+    "service": "Units",
+    "goMethod": "UpdateBudget",
+    "phpMethod": "updateBudget",
+    "method": "POST",
+    "path": "/rest/n/mapi/unit/dspUnitUpdateBudgetPerformance",
+    "description": "批量修改预算"
+  },
+  {
+    "service": "Units",
+    "goMethod": "UpdateBid",
+    "phpMethod": "updateBid",
+    "method": "POST",
+    "path": "/rest/n/mapi/unit/dspUnitUpdateBidPerformance",
+    "description": "批量修改出价"
+  },
+  {
+    "service": "Units",
+    "goMethod": "UpdateCboBid",
+    "phpMethod": "updateCboBid",
+    "method": "POST",
+    "path": "/rest/n/mapi/unit/dspUnitUpdateCboBidPerformance",
+    "description": "CBO 出价"
+  },
+  {
+    "service": "Units",
+    "goMethod": "DerivedActionTypes",
+    "phpMethod": "derivedActionTypes",
+    "method": "POST",
+    "path": "/rest/n/mapi/unit/derivedActionType",
+    "description": "衍生行为"
+  },
+  {
+    "service": "Creatives",
+    "goMethod": "AuditResult",
+    "phpMethod": "auditResult",
+    "method": "POST",
+    "path": "/rest/n/mapi/creative/dspCreativeAuditResultPerformance",
+    "description": "创意审核建议"
+  },
+  {
+    "service": "Creatives",
+    "goMethod": "PostAuditResult",
+    "phpMethod": "postAuditResult",
+    "method": "POST",
+    "path": "/rest/n/mapi/post/profilePostAuditResultPerformance",
+    "description": "社区审核建议"
+  },
+  {
+    "service": "Materials",
+    "goMethod": "Apps",
+    "phpMethod": "apps",
+    "method": "POST",
+    "path": "/rest/n/mapi/material/dspMaterialAppQuery",
+    "description": "应用查询（接口清单路径，详见文档差异说明）"
+  },
+  {
+    "service": "Materials",
+    "goMethod": "Pixels",
+    "phpMethod": "pixels",
+    "method": "POST",
+    "path": "/rest/n/mapi/material/dspMaterialPixelQuery",
+    "description": "Pixel 查询"
+  },
+  {
+    "service": "Materials",
+    "goMethod": "Videos",
+    "phpMethod": "videos",
+    "method": "POST",
+    "path": "/rest/n/mapi/material/dspMaterialVideoQuery",
+    "description": "视频查询"
+  },
+  {
+    "service": "Materials",
+    "goMethod": "UploadToken",
+    "phpMethod": "uploadToken",
+    "method": "POST",
+    "path": "/rest/n/mapi/material/dspMaterialFileUploadToken",
+    "description": "获取单文件上传令牌"
+  },
+  {
+    "service": "Materials",
+    "goMethod": "TransferVideo",
+    "phpMethod": "transferVideo",
+    "method": "POST",
+    "path": "/rest/n/mapi/material/dspMaterialVideoTransfer",
+    "description": "发起/查询视频转码"
+  },
+  {
+    "service": "Materials",
+    "goMethod": "CreatePwa",
+    "phpMethod": "createPwa",
+    "method": "POST",
+    "path": "/rest/n/mapi/material/createPWA",
+    "description": "创建 PWA"
+  },
+  {
+    "service": "Materials",
+    "goMethod": "Pwas",
+    "phpMethod": "pwas",
+    "method": "POST",
+    "path": "/rest/n/mapi/material/pageQueryPWA",
+    "description": "查询 PWA"
+  },
+  {
+    "service": "Materials",
+    "goMethod": "RefreshPwa",
+    "phpMethod": "refreshPwa",
+    "method": "POST",
+    "path": "/rest/n/mapi/material/refreshPWA",
+    "description": "重试 PWA"
+  },
+  {
+    "service": "Materials",
+    "goMethod": "AppealPwa",
+    "phpMethod": "appealPwa",
+    "method": "POST",
+    "path": "/rest/n/mapi/material/appealPWA",
+    "description": "申诉 PWA"
+  },
+  {
+    "service": "Materials",
+    "goMethod": "Avatars",
+    "phpMethod": "avatars",
+    "method": "POST",
+    "path": "/rest/n/mapi/material/dspMaterialAvatarQuery",
+    "description": "头像"
+  },
+  {
+    "service": "Materials",
+    "goMethod": "Populations",
+    "phpMethod": "populations",
+    "method": "POST",
+    "path": "/rest/n/mapi/material/dspMaterialPopulationQuery",
+    "description": "人群包"
+  },
+  {
+    "service": "Materials",
+    "goMethod": "Playables",
+    "phpMethod": "playables",
+    "method": "POST",
+    "path": "/rest/n/mapi/material/dspMaterialPlayableQuery",
+    "description": "试玩素材"
+  },
+  {
+    "service": "Materials",
+    "goMethod": "Interactives",
+    "phpMethod": "interactives",
+    "method": "POST",
+    "path": "/rest/n/mapi/material/dspMaterialInteractiveQuery",
+    "description": "互动样式"
+  },
+  {
+    "service": "Organic",
+    "goMethod": "Accounts",
+    "phpMethod": "accounts",
+    "method": "POST",
+    "path": "/rest/n/mapi/organic/authKwaiAccountQuery",
+    "description": "已授权原生账户"
+  },
+  {
+    "service": "Organic",
+    "goMethod": "Posts",
+    "phpMethod": "posts",
+    "method": "POST",
+    "path": "/rest/n/mapi/organic/profilePostQuery",
+    "description": "原生作品（已弃用）"
+  },
+  {
+    "service": "Organic",
+    "goMethod": "PostsV2",
+    "phpMethod": "postsV2",
+    "method": "POST",
+    "path": "/rest/n/mapi/organic/profilePostQueryV2",
+    "description": "原生作品 V2"
+  },
+  {
+    "service": "Organic",
+    "goMethod": "PushVideo",
+    "phpMethod": "pushVideo",
+    "method": "POST",
+    "path": "/rest/n/mapi/organic/profileMaterialVideoPush",
+    "description": "视频同步至原生账户"
+  },
+  {
+    "service": "Business",
+    "goMethod": "LicenseUploadToken",
+    "phpMethod": "licenseUploadToken",
+    "method": "POST",
+    "path": "/rest/n/mapi/bc/bcLicenseFileUploadToken",
+    "description": "资质文件上传令牌"
+  },
+  {
+    "service": "Business",
+    "goMethod": "LicenseFileKey",
+    "phpMethod": "licenseFileKey",
+    "method": "POST",
+    "path": "/rest/n/mapi/bc/bcLicenseFileUploadTokenToFileKey",
+    "description": "资质文件唯一标识"
+  },
+  {
+    "service": "Business",
+    "goMethod": "CreateAccount",
+    "phpMethod": "createAccount",
+    "method": "POST",
+    "path": "/rest/n/mapi/bc/bcAdAccountCreate",
+    "description": "新建广告主账户"
+  },
+  {
+    "service": "Business",
+    "goMethod": "Account",
+    "phpMethod": "account",
+    "method": "POST",
+    "path": "/rest/n/mapi/bc/bcAccountQueryByAdAccount",
+    "description": "查询广告主账户"
+  },
+  {
+    "service": "Finance",
+    "goMethod": "Charge",
+    "phpMethod": "charge",
+    "method": "POST",
+    "path": "/rest/n/mapi/finance/chargeFinance",
+    "description": "广告主账户充值"
+  },
+  {
+    "service": "Finance",
+    "goMethod": "Refund",
+    "phpMethod": "refund",
+    "method": "POST",
+    "path": "/rest/n/mapi/finance/refundMoney",
+    "description": "广告主账户退款"
+  }
+]
